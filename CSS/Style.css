@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+header {
+  background-image: url(https://images.unsplash.com/photo-1573578160998-4f4c7b023aec?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGdvYXR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30cm;
+}
+.extraclass1 {
+  margin-top: 250px;
+}
+section:hover .img-edit {
+  transform: scale(0.98);
+  transition: transform 1.5s ease-in-out;
+}
+.d-gridd {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+section .card:hover {
+  box-shadow: 10px 10px 20px gray;
+}
+ul {
+  list-style-type: none;
+}
+footer p {
+  text-align: center;
+}
+@media only screen and (max-width: 688px) {
+  header {
+    height: 15cm;
+  }
+  .hidden input {
+    display: none;
+  }
+  .hidden button {
+    position: relative;
+    left: 160px;
+    bottom: 50px;
+  }
+  .buttonhide {
+    display: none;
+  }
+  .display-hide {
+    display: none;
+  }
+
+  .cardtitle1 {
+    font-size: 30px;
+  }
+  .grid1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .buttonhide {
+    margin-left: auto;
+    left: 42px;
+    bottom: 55px;
+  }
+}

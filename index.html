@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/8609bb128c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="CSS/Style.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand fs-1" href="#">
+            <img
+              src="https://cdn.dribbble.com/users/1358284/screenshots/14858306/1.png"
+              alt=""
+              width="70"
+              class="d-inline-block"
+            />
+            GOAT'S
+          </a>
+          <button
+            class="navbar-toggler formhide"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form class="d-flex hidden w-50 mx-auto">
+            <input
+              class="form-control  me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-danger" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav fs-4 ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Goat-picture"> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Special-species">Species</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button type="button" class="btn  buttonhide btn-secondary position-relative me-5">
+            Profile
+            <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+              <span class="visually-hidden">New alerts</span>
+            </span>
+          </button>
+      </nav>
+      
+      <nav class="navbar display-hide navbar-dark">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1 mx-auto"
+            ><address class="fs-1">
+              Kazitula, 2 no. alley,Rahmat Store
+            </address></span
+          >
+        </div>
+      </nav>
+      <section class="container-fluid">
+        <div
+          class="
+            Container
+            d-flex
+            flex-column
+            justify-content-center
+            align-items-center
+            extraclass1
+          "
+        >
+          <div class="title-main text-light">
+            <h1 class="animate__animated animate__flip">
+              Welcome to our shop!
+            </h1>
+          </div>
+          <div class="shop-link">
+            <button class="btn-group btn-lg border-0 bg-dark text-white fs-4">
+              Visit for more!
+            </button>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="container my-5">
+        <h1 class="text-center">Our other shops</h1>
+        <div
+          class="accordion accordion-flush w-50 mx-auto active"
+          id="accordionFlushExample"
+        >
+          <div class="accordion-item bg-primary">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Shop no-1
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                first item's accordion body.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-danger text-light">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                Shop no-2
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                second item's accordion body. Let's imagine this being filled
+                with some actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Shop no-3
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                Placeholder content for this accordion, which is intended to
+                demonstrate the <code>.accordion-flush</code> class. This is the
+                third item's accordion body. Nothing more exciting happening
+                here in terms of content, but just filling up the space to make
+                it look, at least at first glance, a bit more representative of
+                how this would look in a real-world application.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid my-5">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+              <img
+                src="https://wallpaperaccess.com/full/3346433.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Goat no.1</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="https://w0.peakpx.com/wallpaper/207/672/HD-wallpaper-animal-mountain-goat-baby-animal-goat-wildlife.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Goat no.2</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="https://img3.goodfon.com/wallpaper/nbig/f/3e/gornyy-kozel-gory-utes-trava.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Goat no. 3</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="container-fluid " id="Goat-picture">
+        <div class="card  bg-dark text-white ">
+          <img  src="Images/Goat3.jpg" class="card-img img-edit" alt="..." />
+          <div class="card-img-overlay">
+            <h5 class="card-title display-1 cardtitle1">Capra aegagrus hircus</h5>
+            <p class="card-text">
+              Goat!These animals were originally domesticated some 10,000 years
+              ago for its meat, milk, and hair.<br>
+              There are some 200 to 300 distinct breeds of domesticated goat
+              alive in the world today with all manner of different traits and
+              adaptations.
+            </p>
+            <p class="card-text"><div class="btn btn btn-group bg-danger text-white">Visit for more</div></p>
+          </div>
+        </div>
+      </section>
+      <section class="container ">
+       
+          <div class="d-flex  justify-content-center my-5">
+      <button class="btn btn-primary  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Click to Subscribe</button>
+
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Form</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body " style="background-image: url(https://w0.peakpx.com/wallpaper/16/114/HD-wallpaper-abstract-29-art-background-color-creativity-design-form-geometry-graphics-triangle.jpg); background-repeat: no-repeat;background-size: cover;">
+            <form class="row row-cols-lg-auto g-3 align-items-center">
+                <div class="col-12">
+                  <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+                  <div class="input-group">
+                    <div class="input-group-text">@</div>
+                    <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+                  </div>
+                </div>
+              
+                <div class="col-12">
+                  <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+                  <select class="form-select" id="inlineFormSelectPref">
+                    <option selected>Choose...</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                    <label class="form-check-label" for="inlineFormCheck">
+                      Remember me
+                    </label>
+                  </div>
+                </div>
+                <div class="row g-3">
+                    <div class="col-sm-7">
+                      <input type="text" class="form-control" placeholder="City" aria-label="City">
+                    </div>
+                    <div class="col-sm">
+                      <input type="text" class="form-control" placeholder="State" aria-label="State">
+                    </div>
+                    <div class="col-sm">
+                      <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+                    </div>
+                  </div>
+              
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+        </div>
+      </div></div>
+    </section>
+   <section class="container d-gridd">
+    
+    <div class="card  m-3" style="max-width: 540px;">
+      
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Images/goat.jpg" class="img-fluid rounded-start" alt="..." style="height: 9cm;">
+          </div>
+        
+        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Angora</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-dark mt-5">Visit</a>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    <div class="card m-3 " style="max-width: 540px;">
+      
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Images/Goat2.jpg" class="img-fluid rounded-start" alt="..." style="height: 9cm;">
+          </div>
+        
+        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Boer</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-dark mt-5">Visit</a>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    <div class="card m-3" style="max-width: 540px;">
+      
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://c1.wallpaperflare.com/preview/201/736/911/horns-goat-head-eyes.jpg" class="img-fluid rounded-start" alt="..." style="height: 8cm;" >
+          </div>
+        
+        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">LaMancha</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-dark mt-5">Visit</a>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    <div class="card m-3 " style="max-width: 540px;">
+      
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://i.pinimg.com/736x/b9/92/8f/b9928f1c193451f41f330c5ea97ee478.jpg" class="img-fluid rounded-start" alt="..." style="height: 8cm;">
+          </div>
+        
+        
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Toggenburg</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a href="#" class="btn btn-dark mt-5">Visit</a>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    
+    
+   </section>
+   <section class="container my-5">
+    <div class="card text-center bg-dark text-white">
+        <div class="card-header ">
+          Read the text given below
+        </div>
+        <div class="card-body bg-light bg-dark text-white">
+          <h5 class="card-title">Goat's imporatnce</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-muted">
+          10 days ago
+        </div>
+      </div>
+   </section>
+   <section class="container" id="Special-species">
+    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="https://static.displate.com/280x392/displate/2019-12-29/e54095e566241cb567f0392c007dbba1_79069659a1b6af8f304af4993df7255c.jpg" class="img-fluid card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Magnima</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer border-0">
+                <a href="#" class="btn btn-dark">Visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="https://static.displate.com/280x392/displate/2019-12-29/e54095e566241cb567f0392c007dbba1_79069659a1b6af8f304af4993df7255c.jpg" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Anarma</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer border-0">
+                <a href="#" class="btn btn-dark">Visit</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 border-0">
+            <img src="https://static.displate.com/280x392/displate/2019-12-29/e54095e566241cb567f0392c007dbba1_79069659a1b6af8f304af4993df7255c.jpg" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Boush</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer border-0">
+                <a href="#" class="btn btn-dark">Visit</a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+   </section>
+    </main>
+    <footer class="container-fluid bg-dark my-5">
+      
+        <div class="d-flex container flex-column align-items-center">
+          <h1 class="text-white ">Join Our Secret Society</h1>
+          <form class="row  w-50  mx-auto row-cols-lg-auto row-md-auto ">
+           <div class="col-12 ">
+             <label class="visually-hidden "  for="inlineFormInputGroupUsername">Username</label>
+             <div class="input-group" >
+               <div class="input-group-text ">@</div>
+               <input type="text"  class="form-control" id="inlineFormInputGroupUsername" placeholder="Username" value="mishu24@gmail.com">
+             </div>
+           </div>
+           </form>
+        </div>
+        <div class="container-fluid pt-4">
+          <div class="grid1 d-flex justify-content-around">
+          <div class="list1">
+            <ul class="text-white">
+              <li class="fs-2">Cutomer care</li>
+              <li>Regular</li>
+              <li>On time</li>
+              <li>Always care</li>
+            </ul>
+          </div>
+          <div class="list1">
+            <ul class="text-white">
+              <li class="fs-2">FAQ's</li>
+              <li>Regular</li>
+              <li>On time</li>
+              <li>Always care</li>
+            </ul>
+          </div>
+          <div class="list1">
+            <ul class="text-white">
+              <li class="fs-2">Our compant</li>
+              <li>Regular</li>
+              <li>On time</li>
+              <li>Always care</li>
+            </ul>
+          </div>
+          <div class="list1">
+            <ul class="text-white">
+              <li class="fs-2">Our social sites</li>
+              <div class="d-flex justify-content-between">
+              <li class="fs-3"><i class="fab fa-facebook"></i></li>
+              <li class="fs-3"><i class="fab fa-instagram"></i></li>
+              <li class="fs-3"><i class="fab fa-twitter"></i></li>
+              <li class="fs-3"><i class="fab fa-tiktok"></i></li>
+             </div>
+            </ul>
+          </div>
+          </div>
+        </div>
+        <hr>
+        
+        <p class=" text-white">&copy;copyright issues are strictly followed.</p>
+    
+    
+   </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
